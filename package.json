@@ -1,0 +1,14 @@
+{
+  "name": "parted",
+  "version": "1.0.0",
+  "description": "consistency hash. partition & load-balance for used in leviathan",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "ran <abbshrsoufii@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "murmurhash": "0.0.2"
+  }
+}
