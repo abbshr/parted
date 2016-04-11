@@ -1,5 +1,6 @@
 {
-  "name": "parted",
+  "name": "node-parted",
+
   "version": "1.0.0",
   "description": "consistency hash. partition & load-balance for used in leviathan",
   "main": "index.coffee",
@@ -10,5 +11,9 @@
   "license": "MIT",
   "dependencies": {
     "murmurhash": "0.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.3.0"
   }
 }
