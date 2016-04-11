@@ -5,6 +5,8 @@ Leviathan数据分区器, 使用一致性Hash算法, 根据资源名称映射到
 
 环节点的处理算法已经过优化.
 
+散列运算: `MurmurHash`
+
 ## API
 ```coffee
 Ring = require 'parted'
@@ -21,4 +23,5 @@ ring.removeNode '172.16.10.4:80'
 
 # 根据键名查找节点 O(logn)
 node = ring.schedule 'github::abbshr::parted'
+# maybe => '172.16.0.16:2333'
 ```
