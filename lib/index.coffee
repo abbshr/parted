@@ -1,6 +1,6 @@
 assert = require 'assert'
 {v3: murmur} = require 'murmurhash'
-util = require './util'
+util = require 'archangel-util'
 
 class Ring
   constructor: (args) ->
