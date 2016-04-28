@@ -3,8 +3,7 @@ assert = require 'assert'
 util = require 'archangel-util'
 
 class Ring
-  constructor: (args) ->
-    {@nodes, @replica} = args
+  constructor: ({@nodes = [], @replica = 100} = {}) ->
     @virtual_nodes = {}
     @reverse_map = {}
     @ring = []
