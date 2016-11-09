@@ -9,7 +9,7 @@ Leviathan数据分区器, 使用一致性Hash算法, 根据资源名称映射到
 
 ## API
 ```coffee
-Ring = require 'parted'
+Ring = require 'node-parted'
 
 ring = new Ring
   nodes: ['172.16.0.10:4567', '172.16.0.11:2333', '172.16.0.16:2333'] # 节点地址
